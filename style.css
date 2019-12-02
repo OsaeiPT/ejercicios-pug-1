@@ -95,6 +95,7 @@
 
 .link-right a{
   color: rgba(0,0,0,.54) !important;
+  font-size: 14px;
 }
 
 .link--{
@@ -109,6 +110,33 @@
   margin-left: 10px;
 }
 
-.link-left 
+.link-left{
+  display: flex;
+  justify-content: flex-end;
+  
+  margin-top: -35px;
+  margin-bottom: 14px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.link-left a{
+  color: rgba(0,0,0,.54) !important;
+  font-size: 14px;
+}
+
+.link---l{
+  margin-right: 26px;
+}
+
+.link--l{
+  margin-right: 15px;
+}
+
+.link-l{
+  margin-right: 15px;
+}
+
+
+
 
 
