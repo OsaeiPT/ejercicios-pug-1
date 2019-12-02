@@ -26,3 +26,11 @@
 .link-p{
   padding-left: 15px;
 }
+
+.contenedor-input input{
+  width: 470px;
+  height: 50px;
+  margin-top: 37px;
+}
+
+.input-fly{background-color:transparent;border:none;margin:0;padding:0;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;margin-top:-37px}.minidiv .gLFyf{margin-top:-35px;}.a4bIc{display:flex;flex:1;flex-wrap:wrap}.vdLsw{color:transparent;flex:100%;white-space:pre}.vdLsw span{background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;padding:0 0 10px 0;}
