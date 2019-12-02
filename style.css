@@ -1,0 +1,28 @@
+
+
+.contenedor-padre{
+  justify-content: center;
+}
+
+.contenedor-link{
+  margin-top: 20px;
+}
+
+.contenedor-ul{
+  justify-content: flex-end;
+  display: flex !important;
+}
+
+.link {
+  list-style: none !important;
+}
+
+.link a{
+  color: rgba(0,0,0,0.87) !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.link-p{
+  padding-left: 15px;
+}
