@@ -27,10 +27,88 @@
   padding-left: 15px;
 }
 
+.fa-search{
+  position:relative;
+  left: 40px;
+  font-size: 18px !important;
+  color: rgba(210, 206, 206, 0.87);
+}
+
 .contenedor-input input{
   width: 470px;
   height: 50px;
   margin-top: 37px;
+  border: 1px solid rgba(210, 206, 206, 0.87);
+    border-radius: 40px;
 }
 
-.input-fly{background-color:transparent;border:none;margin:0;padding:0;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;margin-top:-37px}.minidiv .gLFyf{margin-top:-35px;}.a4bIc{display:flex;flex:1;flex-wrap:wrap}.vdLsw{color:transparent;flex:100%;white-space:pre}.vdLsw span{background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;padding:0 0 10px 0;}
+.contenedor-input a{
+  position: relative;
+  right: 40px;
+}
+
+.img-microphono{
+  width: 30px;
+}
+
+.svg-inline--fa{
+  font-size: 20px ;
+}
+
+.contenedor-bottom{
+  margin-top: 30px;
+  letter-spacing: 10px;
+}
+
+.btn{
+  color:#5F6368;
+  background-color: #f2f2f2;
+}
+
+.contenedor-parrafo{
+  margin-top:25px;
+}
+
+.contenedor-parrafo a{
+  color: #1a0dab !important;
+}
+
+.contenedor-peru{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #e4e4e4;
+}
+
+.contenedor-peru p{
+  margin-left: 20px;
+  color: rgba(0,0,0,.54);
+  padding: 12px 5px 5px 5px;
+  height: 30px;
+}
+
+.link-right{
+  margin-left: 26px;
+  margin-bottom: 12px;
+}
+
+.link-right a{
+  color: rgba(0,0,0,.54) !important;
+}
+
+.link--{
+  margin-left: 10px;
+}
+
+.link---{
+  margin-left: 10px;
+}
+
+.link----{
+  margin-left: 10px;
+}
+
+.link-left 
+
+

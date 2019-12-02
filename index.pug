@@ -3,6 +3,7 @@ head
   link(rel="stylesheet", href="css/bootstrap.min.css")
   link(rel="stylesheet", href="style.css")
 body
+.clases-pug
   .contenedor-padre
     .container
       .contenedor-link
@@ -14,8 +15,42 @@ body
         img.img-fluid(src="img/googlelogo_color_272x92dp.png", alt="")
       .contenedor-input.text-center
           i.fas.fa-search
-          input.input-fly(type="text")
-          a(href="#"): i.fas.fa-microphone
+          input(type="text")
+          
+          a(href="#"): img(src="img/googlemic_color_24dp.png", alt="Busqueda por voz" class="img-fluid img-microphono")
+
+      .contenedor-bottom.text-center
+
+        button.btn.btn-secundary Buscar con Google
+
+        button.btn.btn-secundary Me siento con suerte
+
+      .contenedor-parrafo.text-center
+
+        p Ofrecido por Google en: 
+          a(href="#") Quechua
+
+  .contenedor-peru
+        
+    p Perú
+
+    .link-right
+    
+      a.link-(href="#") Publicidad  
+      a.link--(href="#") Negocios  
+      a.link---(href="#") Sobre Google 
+      a.link----(href="#") Como funciona la Búsqueda 
+
+    .link-left 
+
+      a.link-(href="#") Privacidad 
+      a.link--(href="#") Condiciones  
+      a.link---(href="#") Preferencias 
+      
+
+ 
+
+  
 
 
   script(src="js/jquery-3.2.1.slim.min.js")
