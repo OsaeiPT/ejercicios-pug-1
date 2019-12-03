@@ -1,5 +1,8 @@
 doctype HTML5
 head
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
   link(rel="stylesheet", href="css/bootstrap.min.css")
   link(rel="stylesheet", href="style.css")
 body
@@ -10,24 +13,25 @@ body
         ul.contenedor-ul
           li.link: a(href="#") Gmail
           li.link.link-p: a(href="#") Imágenes
+          li.link.link--: a(href="#"): i.fas.fa-th
 
-      .text-center
-        img.img-fluid(src="img/googlelogo_color_272x92dp.png", alt="")
+      .text-center.img-google
+        img.img-fluid.img-googl(src="img/googlelogo_color_272x92dp.png", alt="")
       .contenedor-input.text-center
           i.fas.fa-search
           input(type="text")
           
           a(href="#"): img(src="img/googlemic_color_24dp.png", alt="Busqueda por voz" class="img-fluid img-microphono")
 
-      .contenedor-bottom.text-center
+      .contenedor-bottom.text-center.col-md-12
 
-        button.btn.btn-secundary Buscar con Google
+        button.btn.btn-secundary.col-sm-6 Buscar con Google
 
-        button.btn.btn-secundary Me siento con suerte
+        button.btn.btn-secundary.col-sm-6 Me siento con suerte
 
-      .contenedor-parrafo.text-center
+      .contenedor-parrafo.text-center.col-md-12
 
-        p Ofrecido por Google en: 
+        p.col-sm-6 Ofrecido por Google en: 
           a(href="#") Quechua
 
   .contenedor-peru
@@ -40,7 +44,7 @@ body
       a.link--(href="#") Negocios  
       a.link---(href="#") Sobre Google 
       a.link----(href="#") Como funciona la Búsqueda 
-      
+
     .link-left 
 
       a.link-l(href="#") Privacidad 
